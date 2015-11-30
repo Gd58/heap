@@ -54,6 +54,7 @@ public:
 			maxHeap(i,sz);
 		}
 	}
+	/*make min heap*/
 	void min_make_heap(){
 		auto sz = heapData.size();
 		for (auto i = (heapData.size() - 1) / 2; i > 0; --i){
